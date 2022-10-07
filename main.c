@@ -7,14 +7,23 @@
  *		Mail: shogo.kitada@outlook.jp
  *
  *	DESCRIPTION:
- *		勉強スペース
+ *		
  */
 
 #include <stdio.h>
 
+struct {
+    int key;
+    int data;
+} table[100];
+
+int search(int key) {
+    int i;
+}
+
 int main(int argc, char *argv[]) {
     
-    
+
 
     return 0;
 }
